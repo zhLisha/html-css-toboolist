@@ -81,7 +81,8 @@ hr{
 
 ul{
     list-style-type: none;
-    font-family: Verdana;
+    font-family: Arial;
+    margin-bottom: 30px;
 }
 
 .triangle{
@@ -91,7 +92,7 @@ ul{
 
 .li-title{
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 800;
     vertical-align: middle;
 }
 
@@ -100,24 +101,63 @@ ul{
     font-weight: 500;
     margin-left: 15px;
     vertical-align: middle;
+    margin-bottom: 15px;
 }
-.list .check-v{
+.list .check{
     margin-right: 5px;
-    color: rgb(14, 226, 14);
     display: inline-block;
     width: 20px;
     height: 20px;
-    border-radius: 50%;
-    border: 1px solid rgb(14, 226, 14);
+    border-radius: 50%;  
     text-align: center;
     line-height: 18px;
     vertical-align: middle;
 }
 
+.check-v{
+    border: 1px solid rgb(14, 226, 14);
+    color: rgb(14, 226, 14);
+}
+
+.check-x{
+    font-size: 8px;
+    border: 1px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+}
+
 .list .hashtag{
-    border: 1px;
-    font-size: 11px;
-    padding: 7px;
-    background-color: aquamarine;
+    border: solid 1px;
+    font-size: 10px;
+    padding: 6px 10px;
     border-radius: 11px;
+    color: white;
+}
+
+.h-blue{
+    background-color: #47adf1;
+    border: #47adf1;
+}
+
+.h-violet{
+    background-color: #9b5df7;
+    border: #9b5df7;
+}
+
+.h-green{
+    background-color: #64c0a9;
+    border: #64c0a9;
+}
+
+.h-orange{
+    background-color: orange;
+    border: orange;
+}
+
+.h-pink{
+    background-color: #d863a1;
+    border: #d863a1;
+}
+.h-yellowgreen{
+    background-color: #9cd343;
+    border: #9cd343;
 }
