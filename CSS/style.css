@@ -4,7 +4,32 @@
     box-sizing: border-box;
 }
 
-/* Header */
+/* COMMON */
+body{
+    background-color: rgb(244, 244, 245);
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
 
+/* Header */
+.logo-head{
+    padding: 15px 9px;
+    background-color: white;
+}
+
+.logo-head span{
+    font-weight: 780;
+    font-family: Arial;
+    font-size: 40px;
+}
+
+.logo{
+    vertical-align: middle;
+}
+.logo-text{
+    vertical-align: middle;
+}
 
 /* Main */
