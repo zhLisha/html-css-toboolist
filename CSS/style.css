@@ -38,7 +38,7 @@ hr{
 }
 
 /* Main */
-/* content-top */
+
 .container-main{
     width: 65%;
     margin: auto;
@@ -46,6 +46,7 @@ hr{
     margin-top: 45px;
 }
 
+/* content-top-middle */
 .content-top, .content-middle{
     width: 85%;
     margin: auto;
@@ -63,6 +64,8 @@ hr{
     font-weight: 700;
     font-family: Arial;
     border-color: lightgrey;
+    cursor: pointer;
+    /* cursor pointer fa diventare la manina il cursore appena va sopra questi bottoni */
 }
 .btn-blue{
     background-color: rgb(71, 173, 241);
